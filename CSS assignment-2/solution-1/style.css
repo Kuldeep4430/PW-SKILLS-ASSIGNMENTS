@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 1px solid black;
+    padding: 20px;
+    background-color:cornflowerblue;
+}
+
+a{
+   
+    margin: 20px;
+}
+a:hover{
+    background-color: aqua;
+    color: white;
+  
+}

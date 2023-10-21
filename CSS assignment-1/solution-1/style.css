@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+
+#image-3{
+    border: 5px solid red;
+    opacity: 50%;
+    border-radius: 30%;
+    
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#firstname{
+    background-color: antiquewhite;
+}
+#lastname{
+    background-color: azure;
+}
+#email{
+    background-color: blanchedalmond;
+}
+#password{
+    background-color: burlywood;
+}
+button{
+    opacity: 50%;
+}

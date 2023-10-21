@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 1px solid black;
+    padding: 20px;
+    background-color:cornflowerblue;
+}
+
+a{
+   
+    margin: 20px;
+}
+a:hover{
+    background-color: aqua;
+    color: white;
+  
+}
+.nav-1{
+    border: 2px solid black;
+    padding: 4px;
+}
+.nav-2{
+    border:2px dotted rebeccapurple ;
+}
+.nav-3{
+    border: 2px dashed yellow;
+}
+.nav-4{
+    border: 2px double orange;
+}
+.nav-5{
+    border: 2px groove palevioletred;
+}

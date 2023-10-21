@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple web page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- apply css using internal method -->
+    <style>
+       #image-2{
+        border-radius: 40%;
+        border: 5px solid burlywood;
+       }
+    </style>
+</head>
+<body>
+    <!-- apply css using inline method -->
+    <div>
+        <h1>Image style by usig css</h1>
+        <img src="https://images.pexels.com/photos/3153204/pexels-photo-3153204.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Laptop" height="300px" style="border: 5px solid gray; border-radius: 50%;">
+    </div>
+    <!-- apply css using internal method -->
+    <div>
+        <img src="https://images.pexels.com/photos/3153203/pexels-photo-3153203.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="image" height="300px" id="image-2">
+    </div>
+
+    <!-- apply css using external method in which we another file and link this file with html file -->
+     <div><img src="https://images.pexels.com/photos/3194518/pexels-photo-3194518.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="image-3" height="300px" id="image-3"></div>
+    
+</body>
+</html>

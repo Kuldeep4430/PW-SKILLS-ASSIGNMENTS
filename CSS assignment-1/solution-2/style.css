@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar{
+    background-color: aqua;
+}
+.hero_title{
+    background-color: rgb(28, 105, 105);
+}
+.hero_discription{
+    background-color: blanchedalmond;
+}
+.btn-first{
+    background-color: beige;
+    color: blue;
+}
+.btn-second{
+    background-color: chocolate;
+}
+.footer{
+    background-color: rgb(124, 124, 147);
+    
+}
