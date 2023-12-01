@@ -1,0 +1,22 @@
+solution 1
+flexbox-
+Flexbox is a one-dimensional layout system that we can use to create a row or a column axis layout. It makes our life easier to design and build responsive web pages without having to use tricky hacks and a lot of float and position properties in our CSS code.
+Grid-
+If Flexbox is a powerful layout system because it’s a one-dimensional system (meaning that we can work with rows or columns), CSS Grid is now considered the most powerful layout system available.
+CSS Grid is a two-dimensional layout system, we can work with rows and columns together, which means that it opens a lot of different possibilities to build more complex and organized design systems, without having to fall back to some “hacky ways” that we were using in the past.
+
+solution-2
+1 justify-content-
+The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+2 align-item-
+The align-items property specifies the default alignment for items inside a flexbox or grid container.
+In a flexbox container, the flexbox items are aligned on the cross axis, which is vertical by default (opposite of flex-direction).
+In a grid container, the grid items are aligned in the block direction. For pages in English, block direction is downward and inline direction is left to right.
+3 gap-
+The gap property defines the size of the gap between the rows and between the columns in flexbox, grid or multi-column layout. It is a shorthand for the following properties:
+4 flex-direction-
+The flex-direction property specifies the direction of the flexible items.
+Note: If the element is not a flexible item, the flex-direction property has no effect.
+5 flex-wrap-
+The flex-wrap property specifies whether the flexible items should wrap or not.
+Note: If the elements are not flexible items, the flex-wrap property has no effect.

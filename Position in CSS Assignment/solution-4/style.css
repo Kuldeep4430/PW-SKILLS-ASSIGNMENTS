@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+span:hover{
+    border: 2px solid rgb(165, 129, 129);
+}
+.logo{
+    margin: 0 250px 0 0;
+}

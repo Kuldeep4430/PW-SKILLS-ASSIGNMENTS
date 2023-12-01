@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+     <style>
+        .container{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(6,50px);
+            grid-template-rows: repeat(2,50px);
+            gap: 30px;
+            margin: 20px;
+            width: 55dvw;
+
+        }
+        .box{
+            border-radius: 5px;
+            border: 1px solid black;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            background-color: gray;
+            margin: 0 0 0 10px;
+            
+        }
+        .b1{
+            order: 2;
+        }
+        .b2{
+            order: 3;
+        }
+        .b8{
+            order: 1;
+        }
+     </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box b1">1</div>
+        <div class="box b2">2</div>
+        <div class="box b3">3</div>
+        <div class="box b4">4</div>
+        <div class="box b5">5</div>
+        <div class="box b6">6</div>
+        <div class="box b7">7</div>
+        <div class="box b8">8</div>
+    </div>
+</body>
+</html>

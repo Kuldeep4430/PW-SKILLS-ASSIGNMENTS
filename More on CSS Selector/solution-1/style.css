@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header,.information{
+    margin: 20px;
+}
+/* B part */
+ul li a{
+    color: red;
+}
+.information>h2{
+    color: aqua;
+    background-color: azure;
+}
+.information>p{
+    color: red;
+}
+/* C part */
+a[href]{
+    color:red;
+    text-decoration: none;
+}
+a[class="active"]{
+    color: blueviolet;
+    text-decoration: underline;
+}
+a[target="_self"]{
+   background-color: burlywood;
+}
+/* D part */
+
+.information p::after{
+    content: "...";
+}
+.header li::marker{
+    color: rgb(95, 56, 28);
+}
+.information p::first-letter{
+    color: red;
+    font-size: 30px;
+}
